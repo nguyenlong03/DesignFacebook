@@ -31,7 +31,9 @@
             }
         }
         .right-icon{
-
+           &:hover{
+            cursor: pointer;
+           }
         }
     }
 }
