@@ -4,6 +4,8 @@ import ContentLeft from "./contentLeft/ContentLeft";
 import ContentFeed from "./contentFeed/ContentFeed";
 import { users } from "../../data";
 import "../content/content.scss";
+import ContentTitle from "./contentRight/ContentTitle";
+
 
 function Content(props) {
   return (
@@ -12,14 +14,13 @@ function Content(props) {
         <ContentLeft />
       </div>
       <div className="content-feed">
-      
-          <ContentFeed  />
+        <ContentFeed />
       </div>
       <div className="content-right">
-      {users.map((u) => (
+        <ContentTitle/>
+        {users.map((u) => (
           <ContentRight key={u.id} user={u} />
         ))}
-
       </div>
     </div>
   );

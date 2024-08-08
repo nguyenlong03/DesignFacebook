@@ -1,0 +1,55 @@
+.birtday{
+    h4{
+       color: rgb(113,115,118);
+    }
+    .birtday-title{
+        width: 95%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        &:hover{
+            cursor: pointer;
+            background-color:rgb(228, 231, 236) ;
+        }
+        .title1{
+        margin-left: 10px;
+        }
+        .icon-birt{
+           font-size: 30px;
+           color: red;
+           margin-left: 10px;
+        }
+    }
+}
+.seach{
+    display: flex;
+    width: 100%;
+ .app-icon{
+    width: 100%;
+   display: flex;
+   justify-content: end;
+   align-items: end;
+   font-size: 23px;
+   .icon-title{
+    margin-right: 20px;
+    border-radius: 11px;
+    &:hover{
+       cursor: pointer;
+       background-color: rgb(228, 231, 236);
+    }
+  
+   }
+ }
+ .title2{
+    width: 100%;
+    color: rgb(113,115,118);
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    line-height: 15px;
+    
+  
+ }
+}
