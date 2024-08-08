@@ -7,8 +7,9 @@
    height: 61px;
    background-color: #FFFFFF;
    box-shadow: 10px 3px 11px #8888;
-  //  position: fixed;
-  //  z-index: 10;
+   position: fixed;
+   z-index: 10;
+   top: 0;
    .container-right{
      flex: 1;
    }

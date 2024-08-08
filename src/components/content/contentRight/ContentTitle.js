@@ -1,8 +1,8 @@
 import React from "react";
-import { FaBirthdayCake } from "react-icons/fa";
 import { CiSearch } from "react-icons/ci";
 import { AiOutlineMore } from "react-icons/ai";
 import "../contentRight/ContentTitle.scss";
+import { LiaBirthdayCakeSolid } from "react-icons/lia";
 
 function ContentTitle(props) {
   return (
@@ -10,7 +10,7 @@ function ContentTitle(props) {
       <div className="birtday">
         <h4>Sinh nhật</h4>
         <div className="birtday-title">
-          <FaBirthdayCake className="icon-birt" />
+          <LiaBirthdayCakeSolid className="icon-birt" />
           <span className="title1">
             Hôm nay là sinh nhật của <b>Nguyễn Long</b>
           </span>

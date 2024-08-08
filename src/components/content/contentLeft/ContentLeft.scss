@@ -1,0 +1,21 @@
+.Left-app{
+    height: 50px;
+   .app-user{
+    height: 100%;
+    padding: 10px;
+    margin-left: 10px;
+    width: 100%;
+    &:hover{
+        cursor: pointer;
+        background-color: rgb(242, 242, 237);
+        border-radius: 15px;
+    }
+    .app-user_icon{
+     font-size: 30px;
+    }
+    .title{
+        margin-right: 100px;
+        padding: 10px;
+    }
+   } 
+}
