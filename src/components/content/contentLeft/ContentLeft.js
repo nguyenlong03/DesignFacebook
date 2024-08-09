@@ -11,48 +11,52 @@ import { FaRegArrowAltCircleDown } from "react-icons/fa";
 
 function ContentLeft(props) {
   return (
-   
-    <div className="Left-app">
+    <>
       <div className="app-user">
-        <FaUserCircle className="app-user_icon"/>
+        <FaUserCircle className="app-user_icon" />
         <span className="title">nguyễn long</span>
       </div>
       <div className="app-user">
-        <FaUserFriends className="app-user_icon"/>
+        <FaUserFriends className="app-user_icon" />
         <span className="title">Bạn bè</span>
       </div>
       <div className="app-user">
-        <FaUserCircle className="app-user_icon"/>
+        <FaUserCircle className="app-user_icon" />
         <span className="title">Bảng Feed</span>
       </div>
       <div className="app-user">
-        <FaUsers className="app-user_icon"/>
+        <FaUsers className="app-user_icon" />
         <span className="title">Nhóm</span>
       </div>
       <div className="app-user">
-        <CiShop className="app-user_icon"/>
+        <CiShop className="app-user_icon" />
         <span className="title">Maketplace</span>
       </div>
       <div className="app-user">
-        <MdOutlineOndemandVideo className="app-user_icon"/>
+        <MdOutlineOndemandVideo className="app-user_icon" />
         <span className="title">Video</span>
       </div>
       <div className="app-user">
-        <GoClockFill className="app-user_icon"/>
+        <GoClockFill className="app-user_icon" />
         <span className="title">Kỷ niệm</span>
       </div>
       <div className="app-user">
-        <MdSaveAlt className="app-user_icon"/>
+        <MdSaveAlt className="app-user_icon" />
         <span className="title">Đã lưu</span>
       </div>
       <div className="app-user">
-        <FaRegArrowAltCircleDown className="app-user_icon"/>
+        <FaRegArrowAltCircleDown className="app-user_icon" />
         <span className="title">Xem thêm</span>
       </div>
-  
-    </div>
-   
-  )
+      <hr />
+
+      <div className="title-Loitat">
+        <span className="title-name"> <b>Lối tắt của bạn</b></span>
+        <button className="title-bnt">chỉnh sửa</button>
+      </div>
+
+    </>
+  );
 }
 
 export default ContentLeft;

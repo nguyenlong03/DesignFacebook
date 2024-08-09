@@ -69,3 +69,21 @@ export const users = [
       "https://cdn.thoitiet247.edu.vn/wp-content/uploads/2024/04/anh-nu-de-thuong-1.jpg",
   },
 ];
+
+export const Loitat = [
+  {
+    id: 1,
+    ground: "Làng chuế thôn 1",
+    img: "https://scontent.fhan4-1.fna.fbcdn.net/v/t1.6435-9/73375506_1259203384282267_9180824067891003392_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=25d718&_nc_ohc=6gYurRLsSK8Q7kNvgEYvO_5&_nc_ht=scontent.fhan4-1.fna&oh=00_AYD99tSKvMMZwh3ZHu1UcUDHT2hYHE4uWhAE8aNhhh9C4A&oe=66DD3E7A",
+  },
+  {
+    id: 2,
+    ground: "Makeup Stylist",
+    img: "https://scontent.fhan4-2.fna.fbcdn.net/v/t39.2081-6/415975559_1491981428251895_4166063623968940920_n.jpg?stp=c0.0.193.193a_dst-jpg_p192x192&_nc_cat=1&ccb=1-7&_nc_sid=ed3f67&_nc_ohc=7doXtWVD2osQ7kNvgH1zAFp&_nc_ht=scontent.fhan4-2.fna&oh=00_AYB94XeE75ctgwD9GsDwwZdSv4qrdJeboaqbXyf3LqEMCg&oe=66BBA50A",
+  },
+  {
+    id: 3,
+    ground: "Nhóm Tiến lên miền nam",
+    img: "https://play-lh.googleusercontent.com/ID3Bveyi8NPsN4VVXZZJktt_iX0MkRtktZO-Oxprho_nPAR-hoCe2DHm4kM-ILHUJA",
+  },
+];

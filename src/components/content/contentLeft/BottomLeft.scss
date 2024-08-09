@@ -1,0 +1,21 @@
+.Bottom-Left{
+    margin-top: 15px;
+    .bottom-main{
+        height: 48px;
+        display: flex;
+        &:hover{
+            cursor: pointer;
+            background-color: rgb(218, 221, 225);
+            border-radius: 10px;
+        }
+        .bottom-img{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin: 3px 0 0 10px;
+        }
+        .bottom-text{
+            padding: 10px;
+        }
+    }
+}
