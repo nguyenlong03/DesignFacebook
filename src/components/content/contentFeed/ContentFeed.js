@@ -1,21 +1,18 @@
 import React from "react";
 import "../contentFeed/ContentFeed.scss";
-import ContenFeedStory from "./contenFeedStory/contenFeedStory";
 
-function ContentFeed(props) {
+
+function ContentFeed({storys}) {
   return (
-    <div className="feed-main">
-      <div className="feed-str">
-       <ContenFeedStory/>
-      </div>
-      <div className="feed-content">
-
-      </div>
-      <div className="feed-post">
-
-      </div>
+    <div className='Story-containerr'>
+    <div className="Story-user">
+       <img src={storys.image} alt="" className='str-user_main'/>
+       <img src={storys.image} alt="" className='str-user_img'/>
+       <span className='user-text'>{storys.name}</span>
     </div>
-  )
+       
+   </div>
+  );
 }
 
 export default ContentFeed;

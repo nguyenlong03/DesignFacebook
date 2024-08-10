@@ -87,3 +87,60 @@ export const Loitat = [
     img: "https://play-lh.googleusercontent.com/ID3Bveyi8NPsN4VVXZZJktt_iX0MkRtktZO-Oxprho_nPAR-hoCe2DHm4kM-ILHUJA",
   },
 ];
+
+export const story = [
+  {
+    id: 1,
+    image:
+      "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
+    name: "nguyễn phương",
+  },
+  {
+    id: 2,
+    image:
+      "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
+    name: "Bảo thanh",
+  },
+  {
+    id: 3,
+    image:
+      "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
+    name: "nguyễn quang dũng",
+  },
+  {
+    id: 4,
+    image:
+      "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
+    name: "nguyễn phương",
+  },
+  {
+    id: 5,
+    image:
+      "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
+    name: "Đỗ thùy linh",
+  },
+  {
+    id: 6,
+    image:
+      "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
+    name: "nguyễn Trang nghĩa",
+  },
+  {
+    id: 7,
+    image:
+      "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
+    name: "nguyễn Hữu Long",
+  },
+  {
+    id: 8,
+    image:
+      "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
+    name: "Sơn Tung MTP",
+  },
+  {
+    id: 9,
+    image:
+      "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
+    name: "Jack",
+  },
+];

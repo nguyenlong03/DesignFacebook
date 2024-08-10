@@ -26,14 +26,33 @@
   }
   .content-feed {
     margin-top: 60px;
-    margin-left:40px;
+    margin-left:93px;
     flex: 4.0;
+    overflow-y: scroll;
+    overflow-y: hidden;
+    border: none;
+    display: flex;
+    position: relative;
+    gap: 10px;
     // border: 1px solid black;
+    .poter{
+      background-color: aqua;
+      color: black;
+      position: absolute;
+      margin-top: 297px;
+      width: 80%;
+      margin-left: 42px;
+      height: 123px;
+      border-radius: 10px;
+      background-color: rgb(255,255,255);
+      box-shadow: 0px 2px 9px rgb(154, 151, 151);
+    }
   }
   .content-right {
     flex: 2.0;
     margin-top: 60px;
     margin-right: 20px;
+    margin-left: 60px;
   }
   
 }
