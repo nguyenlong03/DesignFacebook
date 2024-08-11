@@ -15,15 +15,15 @@ function Postter(props) {
       <hr />
       <div className="poster-body">
         <div className="poster-item">
-          <MdVideoCameraBack className="poster-icon"/>
+          <MdVideoCameraBack color="red" className="poster-icon"/>
           <span className="poster-text"> Video trực tiếp</span>
         </div>
         <div className="poster-item">
-          <IoMdImages className="poster-icon"/>
+          <IoMdImages color="#45BD62" className="poster-icon"/>
           <span className="poster-text"> ảnh/video</span>
         </div>
         <div className="poster-item">
-          <MdOutlineInsertEmoticon className="poster-icon"/>
+          <MdOutlineInsertEmoticon color="#F7BB2F" className="poster-icon"/>
           <span className="poster-text">Cảm xúc/hoạt động </span>
         </div>
       </div>

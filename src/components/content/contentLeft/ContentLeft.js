@@ -17,44 +17,46 @@ function ContentLeft(props) {
         <span className="title">nguyễn long</span>
       </div>
       <div className="app-user">
-        <FaUserFriends className="app-user_icon" />
+        <FaUserFriends color="#1A84F5" className="app-user_icon" />
         <span className="title">Bạn bè</span>
       </div>
       <div className="app-user">
-        <FaUserCircle className="app-user_icon" />
+        <FaUserCircle color="#1A84F5" className="app-user_icon" />
         <span className="title">Bảng Feed</span>
       </div>
       <div className="app-user">
-        <FaUsers className="app-user_icon" />
+        <FaUsers color="#1A84F5" className="app-user_icon" />
         <span className="title">Nhóm</span>
       </div>
       <div className="app-user">
-        <CiShop className="app-user_icon" />
+        <CiShop color="#1A84F5" className="app-user_icon" />
         <span className="title">Maketplace</span>
       </div>
       <div className="app-user">
-        <MdOutlineOndemandVideo className="app-user_icon" />
+        <MdOutlineOndemandVideo color="#1A84F5" className="app-user_icon" />
         <span className="title">Video</span>
       </div>
       <div className="app-user">
-        <GoClockFill className="app-user_icon" />
+        <GoClockFill color="#1A84F5" className="app-user_icon" />
         <span className="title">Kỷ niệm</span>
       </div>
       <div className="app-user">
-        <MdSaveAlt className="app-user_icon" />
+        <MdSaveAlt color="#1A84F5" className="app-user_icon" />
         <span className="title">Đã lưu</span>
       </div>
       <div className="app-user">
-        <FaRegArrowAltCircleDown className="app-user_icon" />
+        <FaRegArrowAltCircleDown color="#A157E8" className="app-user_icon" />
         <span className="title">Xem thêm</span>
       </div>
       <hr />
 
       <div className="title-Loitat">
-        <span className="title-name"> <b>Lối tắt của bạn</b></span>
+        <span className="title-name">
+          {" "}
+          <b>Lối tắt của bạn</b>
+        </span>
         <button className="title-bnt">chỉnh sửa</button>
       </div>
-
     </>
   );
 }

@@ -92,19 +92,19 @@ export const story = [
   {
     id: 1,
     image:
-      "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
+      "https://hoanghamobile.com/tin-tuc/wp-content/uploads/2024/04/anh-con-gai-1-1.jpg",
     name: "nguyễn phương",
   },
   {
     id: 2,
     image:
-      "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
+      "https://cdn.thoitiet247.edu.vn/wp-content/uploads/2024/04/nhung-hinh-anh-girl-xinh-de-thuong.webp",
     name: "Bảo thanh",
   },
   {
     id: 3,
     image:
-      "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
+      "https://likevape.vn/wp-content/uploads/2023/08/21205817-hinh-anh-gai-xinh-11.jpg",
     name: "nguyễn quang dũng",
   },
   {

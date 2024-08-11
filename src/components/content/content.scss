@@ -36,16 +36,18 @@
     gap: 10px;
     // border: 1px solid black;
     .poter{
-      background-color: aqua;
       color: black;
       position: absolute;
       margin-top: 297px;
-      width: 80%;
+      width: 85%;
       margin-left: 42px;
-      height: 123px;
+      height: 130px;
       border-radius: 10px;
       background-color: rgb(255,255,255);
       box-shadow: 0px 2px 9px rgb(154, 151, 151);
+    }
+    .post-articles{
+      position: absolute;
     }
   }
   .content-right {
