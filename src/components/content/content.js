@@ -10,6 +10,7 @@ import ContentTitle from "./contentRight/ContentTitle";
 import BottomLeft from "./contentLeft/BottomLeft";
 import FeedBox1 from "./contentFeed/FeedBox1/FeedBox1";
 import Postter from "./contentFeed/postter/Postter";
+import Postarticles from "./contentFeed/postarticles/Postarticles";
 
 function Content(props) {
   return (
@@ -27,6 +28,10 @@ function Content(props) {
         ))}
         <div className="poter">
           <Postter />
+        </div>
+        <div className="post-articles">
+           <Postarticles/>
+           
         </div>
       </div>
 
