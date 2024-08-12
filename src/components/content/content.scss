@@ -56,11 +56,28 @@
       border-radius: 10px;
       background-color: rgb(255, 255, 255);
       box-shadow: 0px 2px 9px rgb(154, 151, 151);
+      margin-top: 288px;
     }
     .name-story{
+      position: relative;
       display: flex;
       gap: 10px;
       width: 100vh;
+      position: absolute;
+      overflow-y: scroll;
+      overflow-y: hidden;
+      &::-webkit-scrollbar {
+        width: 5px;
+      }
+      &::-webkit-scrollbar-thumb {
+        background-color: #ffff;
+        border-radius: 10px;
+      }
+  
+      &::-webkit-scrollbar-track {
+        background-color: #ffff;
+      }
+     
     }
     
     .post-articles{

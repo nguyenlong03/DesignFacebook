@@ -38,25 +38,37 @@ function Content(props) {
           <Postter />
         </div>
         <div className="post-articles">
-          <Postarticles name = "nguyenlong"  title = "Đi Giữa Trời Rực Rỡ TẬP 10: Chải cuối cùng cũng c:ứu được Pu, cả hai đưa ra quyết định lớn cho tương lai, CHẢI và bố đồng ý cho  PU đi học Đại học 2 ĐIỀU KIỆN👇 Xem dưới bình luận👇"  img = {logo}/>
+          <Postarticles
+            name="nguyenlong"
+            title="Đi Giữa Trời Rực Rỡ TẬP 10: Chải cuối cùng cũng c:ứu được Pu, cả hai đưa ra quyết định lớn cho tương lai, CHẢI và bố đồng ý cho  PU đi học Đại học 2 ĐIỀU KIỆN👇 Xem dưới bình luận👇"
+            img={logo}
+          />
         </div>
         <div className="post-articles">
-          <Postarticles name = "nguyenlong"  title = "#j2team_news 12/8/2024 🧐 Viettel tối qua đến giờ lỗi cuộc gọi (không gọi đi được, không check tài khoản bằng *101#...được).Lỗi xuất hiện trên các dòng iphone 6, 7, 8."  img ={logo1}/>
+          <Postarticles
+            name="nguyenlong"
+            title="#j2team_news 12/8/2024 🧐 Viettel tối qua đến giờ lỗi cuộc gọi (không gọi đi được, không check tài khoản bằng *101#...được).Lỗi xuất hiện trên các dòng iphone 6, 7, 8."
+            img={logo1}
+          />
         </div>
         <div className="post-articles">
-          <Postarticles name = "nguyenlong"  title = "Chúc mừng gia đình Đặng Thu Hà chính thức có thêm thành viên mới! 🥳"  img ={logo2}/>
+          <Postarticles
+            name="nguyenlong"
+            title="Chúc mừng gia đình Đặng Thu Hà chính thức có thêm thành viên mới! 🥳"
+            img={logo2}
+          />
         </div>
         <div className="post-articles">
-          <Postarticles name = "nguyenlong"  title = ""  img ={logo3}/>
+          <Postarticles name="nguyenlong" title="" img={logo3} />
         </div>
         <div className="post-articles">
-          <Postarticles name = "nguyenlong"  title = ""  img ={logo5}/>
+          <Postarticles name="nguyenlong" title="" img={logo5} />
         </div>
         <div className="post-articles">
-          <Postarticles name = "nguyenlong"  title = ""  img ={logo3}/>
+          <Postarticles name="nguyenlong" title="" img={logo3} />
         </div>
         <div className="post-articles">
-          <Postarticles name = "nguyenlong"  title = ""  img ={logo5}/>
+          <Postarticles name="nguyenlong" title="" img={logo5} />
         </div>
       </div>
 
