@@ -68,6 +68,34 @@ export const users = [
     image:
       "https://cdn.thoitiet247.edu.vn/wp-content/uploads/2024/04/anh-nu-de-thuong-1.jpg",
   },
+  {
+    id: 10,
+    username: "lê đức phúc",
+    email: "Nguyenlong@gmail.com",
+    image:
+      "https://cdn.thoitiet247.edu.vn/wp-content/uploads/2024/04/anh-nu-de-thuong-1.jpg",
+  },
+  {
+    id: 10,
+    username: "lê đức phúc",
+    email: "Nguyenlong@gmail.com",
+    image:
+      "https://cdn.thoitiet247.edu.vn/wp-content/uploads/2024/04/anh-nu-de-thuong-1.jpg",
+  },
+  {
+    id: 10,
+    username: "lê đức phúc",
+    email: "Nguyenlong@gmail.com",
+    image:
+      "https://cdn.thoitiet247.edu.vn/wp-content/uploads/2024/04/anh-nu-de-thuong-1.jpg",
+  },
+  {
+    id: 10,
+    username: "lê đức phúc",
+    email: "Nguyenlong@gmail.com",
+    image:
+      "https://cdn.thoitiet247.edu.vn/wp-content/uploads/2024/04/anh-nu-de-thuong-1.jpg",
+  },
 ];
 
 export const Loitat = [
@@ -83,6 +111,31 @@ export const Loitat = [
   },
   {
     id: 3,
+    ground: "Nhóm Tiến lên miền nam",
+    img: "https://play-lh.googleusercontent.com/ID3Bveyi8NPsN4VVXZZJktt_iX0MkRtktZO-Oxprho_nPAR-hoCe2DHm4kM-ILHUJA",
+  },
+  {
+    id: 4,
+    ground: "Nhóm Tiến lên miền nam",
+    img: "https://play-lh.googleusercontent.com/ID3Bveyi8NPsN4VVXZZJktt_iX0MkRtktZO-Oxprho_nPAR-hoCe2DHm4kM-ILHUJA",
+  },
+  {
+    id: 5,
+    ground: "Nhóm Tiến lên miền nam",
+    img: "https://play-lh.googleusercontent.com/ID3Bveyi8NPsN4VVXZZJktt_iX0MkRtktZO-Oxprho_nPAR-hoCe2DHm4kM-ILHUJA",
+  },
+  {
+    id: 6,
+    ground: "Nhóm Tiến lên miền nam",
+    img: "https://play-lh.googleusercontent.com/ID3Bveyi8NPsN4VVXZZJktt_iX0MkRtktZO-Oxprho_nPAR-hoCe2DHm4kM-ILHUJA",
+  },
+  {
+    id: 7,
+    ground: "Nhóm Tiến lên miền nam",
+    img: "https://play-lh.googleusercontent.com/ID3Bveyi8NPsN4VVXZZJktt_iX0MkRtktZO-Oxprho_nPAR-hoCe2DHm4kM-ILHUJA",
+  },
+  {
+    id: 8,
     ground: "Nhóm Tiến lên miền nam",
     img: "https://play-lh.googleusercontent.com/ID3Bveyi8NPsN4VVXZZJktt_iX0MkRtktZO-Oxprho_nPAR-hoCe2DHm4kM-ILHUJA",
   },
