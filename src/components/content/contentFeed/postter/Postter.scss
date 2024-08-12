@@ -4,6 +4,11 @@
     cursor: pointer;
    }
   gap: 10px;
+  .Reponsive-icon{
+    margin-top: 15px;
+    font-size: 30px;
+    display: none;
+  }
   .poster-img {
     width: 40px;
     height: 40px;
@@ -16,7 +21,7 @@
     }
   }
   .poster-title {
-    width: 435px;
+    width: 400px;
     height: 40px;
     margin-top: 10px;
     border-radius: 20px;
@@ -68,18 +73,17 @@ hr {
 }
 
 @media only screen and (max-width: 414px) {
+  .poster-heder{
+    height: 60px;
+    .Reponsive-icon{
+           display: block;
+     }
+  }
    .poster-body{
     display: none;
-    .poster-item{
-      
-      .poster-icon{
-          
-          
-      }
-      .poster-text{
-
-      }
-    }
+   }
+   hr{
+    display: none;
    }
 
 }

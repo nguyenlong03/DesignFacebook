@@ -15,6 +15,7 @@ import logo from "../../acsset/image/user.jpg";
 import logo1 from "../../acsset/image/user1.jpg";
 import logo2 from "../../acsset/image/user4.jpg";
 import logo3 from "../../acsset/image/user3.jpg";
+import logo5 from "../../acsset/image/user5.jpg";
 
 function Content(props) {
   return (
@@ -47,6 +48,15 @@ function Content(props) {
         </div>
         <div className="post-articles">
           <Postarticles name = "nguyenlong"  title = ""  img ={logo3}/>
+        </div>
+        <div className="post-articles">
+          <Postarticles name = "nguyenlong"  title = ""  img ={logo5}/>
+        </div>
+        <div className="post-articles">
+          <Postarticles name = "nguyenlong"  title = ""  img ={logo3}/>
+        </div>
+        <div className="post-articles">
+          <Postarticles name = "nguyenlong"  title = ""  img ={logo5}/>
         </div>
       </div>
 
