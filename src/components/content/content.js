@@ -27,7 +27,7 @@ function Content(props) {
         ))}
       </div>
       <div className="content-feed">
-        <div className="name">
+        <div className="name-story">
           <FeedBox1 />
           {story.map((item) => (
             <ContentFeed key={item.id} storys={item} />
