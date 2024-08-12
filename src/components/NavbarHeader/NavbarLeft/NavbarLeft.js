@@ -5,6 +5,7 @@ import { IoIosNotifications } from "react-icons/io";
 import "../NavbarLeft/NavbarLeft.scss";
 import logo from "../../../acsset/image/user.jpg";
 
+
 function NavbarLeft(props) {
   return (
     <div className="Left-container">
@@ -23,6 +24,7 @@ function NavbarLeft(props) {
         <img src={logo} alt="" className="iconItem" />
         <span className="leftIconBadge">2</span>
       </div>
+      
     </div>
   );
 }

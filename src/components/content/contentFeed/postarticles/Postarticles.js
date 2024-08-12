@@ -9,43 +9,63 @@ import { SlActionRedo } from "react-icons/sl";
 import { SlLink } from "react-icons/sl";
 import { AiOutlineLike } from "react-icons/ai";
 import { FiMessageCircle } from "react-icons/fi";
-import logo from "../../../../acsset/image/user2.jpg"
+import logo from "../../../../acsset/image/user2.jpg";
+import { useState } from "react";
 
 function Postarticles(props) {
+  const [isLiked, setIsLiked] = useState(1);
+  const handled=()=>{
+    setIsLiked(isLiked+1);
+  }
   return (
     <>
       <div className="post-header">
-        <img src={logo} alt="" className="post-heder_img" />
-        <span className="post-heder_text">Angels <b style={{color:"blue"}}>Theo dõi</b></span>
-        <span className="post-heder_icon">
-        <GoKebabHorizontal className="icon-post"/>
-        <GrClose  className="icon-post" />
-        </span>
-        
+        <img src={props.img} alt="" className="post-heder_img" />
+        <div className="post-header_item">
+          <span className="post-heder_text">
+            {props.name} <b style={{ color: "blue" }}>Theo dõi</b>
+          </span>
+          <div className="icon">
+            <GoKebabHorizontal className="icon-post" />
+            <GrClose className="icon-post" />
+          </div>
+        </div>
       </div>
-
-      <img src={logo} alt="" className="post-image" />
-
+      <p className="post-p">
+        {props.title}
+      </p>
+      <img src={props.img} alt="" className="post-image" />
       <div className="post-title">
-        <div className="post-title_icon1">       
-             <AiFillLike  color="#137AFF"/>
-             <MdEmojiEmotions color="#FDD870"/> 
-            <span className="like">1,3k</span> 
+        <div className="post-title_icon1">
+          <span className="like" style={{ fontSize: "18px", marginTop: "5px" }}>
+            <AiFillLike size="20px" color="#137AFF" />
+            <MdEmojiEmotions size="20px" color="#FDD870" /> 
+              <span>{isLiked}</span>
+          </span>
         </div>
-
         <div className="post-title_icon">
-              <span className="text">1,5k <TbMessageCircle2Filled color="#606770"/></span>
-              <span className="text">730 <SlActionRedo color="#606770"/></span>
+          <span className="text">
+            1,5k <TbMessageCircle2Filled color="#606770" size="20px" />
+          </span>
+          <span className="text">
+            730 <SlActionRedo color="#606770" size="20px" />
+          </span>
         </div>
       </div>
-
-      <hr className="hr-icon"/>
-
+      <hr className="hr-icon" />
       <div className="post-feeling">
-        <span className="feeling-icon"><AiOutlineLike/> Like</span>
-        <span className="feeling-icon"><FiMessageCircle/> Bình luận</span>
-        <span className="feeling-icon"><SlLink /> Sao chép</span>
-        <span className="feeling-icon"><SlActionRedo /> Chia sẻ</span>
+        <span className="feeling-icon">
+          <AiOutlineLike size="25px"  onClick={handled} />  Like
+        </span>
+        <span className="feeling-icon">
+          <FiMessageCircle size="25px" /> Bình luận
+        </span>
+        <span className="feeling-icon">
+          <SlLink size="25px" /> Sao chép
+        </span>
+        <span className="feeling-icon">
+          <SlActionRedo size="25px" /> Chia sẻ
+        </span>
       </div>
     </>
   );
