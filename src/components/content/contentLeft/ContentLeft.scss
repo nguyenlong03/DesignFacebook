@@ -16,29 +16,4 @@
   }
   
 }
-.title-Loitat{
-    width: 100%;
-    height: 36px;
-    display: flex;
-    gap: 40px;
-    margin-top: 20px;
-    &:hover .title-bnt {
-        display: block;
-      }
-   
-    .title-name{
-       margin-left: 20px;
-    }
-    .title-bnt{
-        width: 86px;
-        height: 31px;
-        border: none;
-        color: blue;
-        display: none;
-        border-radius: 10px;
-        &:hover{
-            display: block;
-        }
-       
-    }
-  }
+

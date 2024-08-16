@@ -12,18 +12,18 @@ import { FiMessageCircle } from "react-icons/fi";
 import logo from "../../../../acsset/image/user2.jpg";
 import { useState } from "react";
 
-function Postarticles(props) {
+function Postcontent({ post }) {
   const [isLiked, setIsLiked] = useState(1);
-  const handled=()=>{
-    setIsLiked(isLiked+1);
-  }
+  const handled = () => {
+    setIsLiked(isLiked + 1);
+  };
   return (
     <>
       <div className="post-header">
-        <img src={props.img} alt="" className="post-heder_img" />
+        <img src={post.img} alt="" className="post-heder_img" />
         <div className="post-header_item">
           <span className="post-heder_text">
-            {props.name} <b style={{ color: "blue" }}>Theo dõi</b>
+            {post.name} <b style={{ color: "blue" }}>Theo dõi</b>
           </span>
           <div className="icon">
             <GoKebabHorizontal className="icon-post" />
@@ -31,16 +31,14 @@ function Postarticles(props) {
           </div>
         </div>
       </div>
-      <p className="post-p">
-        {props.title}
-      </p>
-      <img src={props.img} alt="" className="post-image" />
+      <p className="post-p">{post.title}</p>
+      <img src={post.img} alt="" className="post-image" />
       <div className="post-title">
         <div className="post-title_icon1">
           <span className="like" style={{ fontSize: "18px", marginTop: "5px" }}>
             <AiFillLike size="20px" color="#137AFF" />
-            <MdEmojiEmotions size="20px" color="#FDD870" /> 
-              <span>{isLiked}</span>
+            <MdEmojiEmotions size="20px" color="#FDD870" />
+            <span>{isLiked}</span>
           </span>
         </div>
         <div className="post-title_icon">
@@ -55,7 +53,7 @@ function Postarticles(props) {
       <hr className="hr-icon" />
       <div className="post-feeling">
         <span className="feeling-icon">
-          <AiOutlineLike size="25px"  onClick={handled} />  Like
+          <AiOutlineLike size="25px" onClick={handled} /> Like
         </span>
         <span className="feeling-icon">
           <FiMessageCircle size="25px" /> Bình luận
@@ -71,4 +69,4 @@ function Postarticles(props) {
   );
 }
 
-export default Postarticles;
+export default Postcontent;

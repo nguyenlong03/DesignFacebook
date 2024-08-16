@@ -1,3 +1,12 @@
+import { FaUserCircle } from "react-icons/fa";
+import { FaUserFriends } from "react-icons/fa";
+import { FaUsers } from "react-icons/fa";
+import { CiShop } from "react-icons/ci";
+import { MdOutlineOndemandVideo } from "react-icons/md";
+import { GoClockFill } from "react-icons/go";
+import { MdSaveAlt } from "react-icons/md";
+import { FaRegArrowAltCircleDown } from "react-icons/fa";
+
 export const users = [
   {
     id: 1,
@@ -195,5 +204,84 @@ export const story = [
     image:
       "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
     name: "Jack",
+  },
+];
+
+export const posts = [
+  {
+    id: 1,
+    img: "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
+    title:
+      "Đi Giữa Trời Rực Rỡ TẬP 10: Chải cuối cùng cũng c:ứu được Pu, cả hai đưa ra quyết định lớn cho tương lai, CHẢI và bố đồng ý cho PU đi học Đại học 2 ĐIỀU KIỆN👇 Xem dưới bình luận👇",
+    name: "nguyen long",
+  },
+  {
+    id: 2,
+    img: "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
+    title:
+      "Đi Giữa Trời Rực Rỡ TẬP 10: Chải cuối cùng cũng c:ứu được Pu, cả hai đưa ra quyết định lớn cho tương lai, CHẢI và bố đồng ý cho PU đi học Đại học 2 ĐIỀU KIỆN👇 Xem dưới bình luận👇",
+    name: "nguyen phương",
+  },
+  {
+    id: 3,
+    img: "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
+    title:
+      "Đi Giữa Trời Rực Rỡ TẬP 10: Chải cuối cùng cũng c:ứu được Pu, cả hai đưa ra quyết định lớn cho tương lai, CHẢI và bố đồng ý cho PU đi học Đại học 2 ĐIỀU KIỆN👇 Xem dưới bình luận👇",
+    name: "nguyen thị linh",
+  },
+  {
+    id: 4,
+    img: "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
+    title:
+      "Đi Giữa Trời Rực Rỡ TẬP 10: Chải cuối cùng cũng c:ứu được Pu, cả hai đưa ra quyết định lớn cho tương lai, CHẢI và bố đồng ý cho PU đi học Đại học 2 ĐIỀU KIỆN👇 Xem dưới bình luận👇",
+    name: "Lê thị trang",
+  },
+];
+
+export const leftdata = [
+  {
+    id: 1,
+    icon: FaUserCircle,
+    name: " nguyễn long",
+  },
+  {
+    id: 2,
+    icon: FaUserFriends,
+    name: " Bạn bè",
+  },
+  {
+    id: 3,
+    icon: FaUserCircle,
+    name: " Bảng Feed",
+  },
+  {
+    id: 4,
+    icon: FaUsers,
+    name: " Bảng Feed",
+  },
+  {
+    id: 5,
+    icon: CiShop,
+    name: " Maketplace",
+  },
+  {
+    id: 6,
+    icon: MdOutlineOndemandVideo,
+    name: " Video",
+  },
+  {
+    id: 7,
+    icon: GoClockFill,
+    name: " Kỷ niệm",
+  },
+  {
+    id: 8,
+    icon: MdSaveAlt,
+    name: " Đã lưu",
+  },
+  {
+    id: 9,
+    icon: FaRegArrowAltCircleDown,
+    name: "Xem thêm",
   },
 ];
