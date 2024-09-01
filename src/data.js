@@ -6,6 +6,7 @@ import { MdOutlineOndemandVideo } from "react-icons/md";
 import { GoClockFill } from "react-icons/go";
 import { MdSaveAlt } from "react-icons/md";
 import { FaRegArrowAltCircleDown } from "react-icons/fa";
+import { BiColor } from "react-icons/bi";
 
 export const users = [
   {

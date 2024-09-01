@@ -85,12 +85,10 @@
       margin-top: 288px;
     }
     .name-story{
-      position: relative;
       display: flex;
       gap: 10px;
-      width: 100vh;
+      width: auto;
       position: absolute;
-      overflow-y: scroll;
       overflow-y: hidden;
       &::-webkit-scrollbar {
         width: 5px;
