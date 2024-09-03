@@ -5,26 +5,23 @@ import { IoIosNotifications } from "react-icons/io";
 import "../NavbarLeft/NavbarLeft.scss";
 import logo from "../../../acsset/image/user.jpg";
 
-
 function NavbarLeft(props) {
   return (
     <div className="Left-container">
       <div className="left-icon">
-        <CgMenuGridR size="20px" className="iconItem" />
+        <CgMenuGridR className="iconItem" />
       </div>
       <div className="left-icon">
-        <BiLogoMessenger size="10px" className="iconItem" />
+        <BiLogoMessenger className="iconItem" />
         <span className="leftIconBadge">10</span>
       </div>
       <div className="left-icon">
-        <IoIosNotifications size="20px" className="iconItem" />
+        <IoIosNotifications className="iconItem" />
         <span className="leftIconBadge">2</span>
       </div>
-      <div className="left-icon">
-        <img src={logo} alt="" className="iconItem" />
-        <span className="leftIconBadge">2</span>
+      <div className="left-icon_avatar">
+        <img src={logo} alt="" className="iconItem-avatar" />
       </div>
-      
     </div>
   );
 }

@@ -1,7 +1,17 @@
+
+@font-face {
+  font-family: myfont;
+  src: url('../../font/OpenSans-VariableFont_wdth,wght.ttf');
+}
+
 .content-main {
   display: flex;
   margin-top: 20px;
+  
+
   .content-left {
+    font-family: myfont;
+    font-weight: 600;
     height: 100vh;
     overflow-y: hidden;
     overflow-x: hidden;
@@ -53,6 +63,7 @@
   .content-feed {
     flex-direction: column;
     height: 100vh;
+    max-width: 100%;
     margin-top: 60px;
     margin-left: 93px;
     flex: 4;
@@ -87,20 +98,8 @@
     .name-story{
       display: flex;
       gap: 10px;
-      width: auto;
+      max-width: 100%;;
       position: absolute;
-      overflow-y: hidden;
-      &::-webkit-scrollbar {
-        width: 5px;
-      }
-      &::-webkit-scrollbar-thumb {
-        background-color: #ffff;
-        border-radius: 10px;
-      }
-  
-      &::-webkit-scrollbar-track {
-        background-color: #ffff;
-      }
      
     }
     

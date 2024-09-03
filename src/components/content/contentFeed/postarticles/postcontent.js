@@ -20,7 +20,7 @@ function Postcontent({ post }) {
   return (
     <>
       <div className="post-header">
-        <img src={post.img} alt="" className="post-heder_img" />
+        <img src={post.avatar} alt="" className="post-heder_img" />
         <div className="post-header_item">
           <span className="post-heder_text">
             {post.name} <b style={{ color: "blue" }}>Theo dõi</b>
@@ -32,7 +32,17 @@ function Postcontent({ post }) {
         </div>
       </div>
       <p className="post-p">{post.title}</p>
-      <img src={post.img} alt="" className="post-image" />
+      {/* trường hợp người dùng đăng nhiều ảnh 
+           b1:data phải là 1 mảng chứa các ảnh
+           b2: nếu img là 1 mảng thì lặp qua và render ra các ảnh (Array.isArray(post.img) )
+         */}
+      {Array.isArray(post.img) ? (
+        post.img.map((image, index) => (
+          <img key={index} src={image} alt="" className="post-images" />
+        ))
+      ) : (
+        <img src={post.img} alt="post-image" className="post-image" />
+      )}
       <div className="post-title">
         <div className="post-title_icon1">
           <span className="like" style={{ fontSize: "18px", marginTop: "5px" }}>

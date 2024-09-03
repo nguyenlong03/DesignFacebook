@@ -2,10 +2,7 @@ import React from "react";
 import ContentRight from "./contentRight/ContentRight";
 import ContentLeft from "./contentLeft/ContentLeft";
 import ContentFeed from "./contentFeed/ContentFeed";
-import { posts, users, leftdata } from "../../data";
-import { Loitat } from "../../data";
-import { story } from "../../data";
-
+import { posts, users, leftdata, Loitat, story } from "../../data";
 import "../content/content.scss";
 import ContentTitle from "./contentRight/ContentTitle";
 import BottomLeft from "./contentLeft/BottomLeft";
@@ -17,13 +14,12 @@ function Content(props) {
   return (
     <div className="content-main">
       <div className="content-left">
-        {leftdata.map((item) => {
-          return <ContentLeft key={item.id} data={item} />;
-        })}
+        {leftdata.map((item) => (
+          <ContentLeft key={item.id} data={item} />
+        ))}
         <hr />
         <div className="title-Loitat">
           <span className="title-name">
-            {" "}
             <b>Lối tắt của bạn</b>
           </span>
           <button className="title-bnt">chỉnh sửa</button>
@@ -39,7 +35,6 @@ function Content(props) {
             <ContentFeed key={item.id} storys={item} />
           ))}
         </div>
-
         <div className="poter">
           <Postter />
         </div>

@@ -7,6 +7,7 @@ import { GoClockFill } from "react-icons/go";
 import { MdSaveAlt } from "react-icons/md";
 import { FaRegArrowAltCircleDown } from "react-icons/fa";
 import { BiColor } from "react-icons/bi";
+import styled from "styled-components";
 
 export const users = [
   {
@@ -117,7 +118,7 @@ export const Loitat = [
   {
     id: 2,
     ground: "Makeup Stylist",
-    img: "https://scontent.fhan4-2.fna.fbcdn.net/v/t39.2081-6/415975559_1491981428251895_4166063623968940920_n.jpg?stp=c0.0.193.193a_dst-jpg_p192x192&_nc_cat=1&ccb=1-7&_nc_sid=ed3f67&_nc_ohc=7doXtWVD2osQ7kNvgH1zAFp&_nc_ht=scontent.fhan4-2.fna&oh=00_AYB94XeE75ctgwD9GsDwwZdSv4qrdJeboaqbXyf3LqEMCg&oe=66BBA50A",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj7CFp3lpsQgrk_l-OydQ6lax_5mW4DplcYg&s",
   },
   {
     id: 3,
@@ -126,28 +127,13 @@ export const Loitat = [
   },
   {
     id: 4,
-    ground: "Nhóm Tiến lên miền nam",
+    ground: "Nhóm Dev ơi mình đi đâu ?",
     img: "https://play-lh.googleusercontent.com/ID3Bveyi8NPsN4VVXZZJktt_iX0MkRtktZO-Oxprho_nPAR-hoCe2DHm4kM-ILHUJA",
   },
   {
     id: 5,
-    ground: "Nhóm Tiến lên miền nam",
-    img: "https://play-lh.googleusercontent.com/ID3Bveyi8NPsN4VVXZZJktt_iX0MkRtktZO-Oxprho_nPAR-hoCe2DHm4kM-ILHUJA",
-  },
-  {
-    id: 6,
-    ground: "Nhóm Tiến lên miền nam",
-    img: "https://play-lh.googleusercontent.com/ID3Bveyi8NPsN4VVXZZJktt_iX0MkRtktZO-Oxprho_nPAR-hoCe2DHm4kM-ILHUJA",
-  },
-  {
-    id: 7,
-    ground: "Nhóm Tiến lên miền nam",
-    img: "https://play-lh.googleusercontent.com/ID3Bveyi8NPsN4VVXZZJktt_iX0MkRtktZO-Oxprho_nPAR-hoCe2DHm4kM-ILHUJA",
-  },
-  {
-    id: 8,
-    ground: "Nhóm Tiến lên miền nam",
-    img: "https://play-lh.googleusercontent.com/ID3Bveyi8NPsN4VVXZZJktt_iX0MkRtktZO-Oxprho_nPAR-hoCe2DHm4kM-ILHUJA",
+    ground: "đại học công nghiệp việt hung",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV501m4voRtu6jLdaIJvIdaReo4o_SFOT-jA&s",
   },
 ];
 
@@ -188,29 +174,13 @@ export const story = [
       "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
     name: "nguyễn Trang nghĩa",
   },
-  {
-    id: 7,
-    image:
-      "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
-    name: "nguyễn Hữu Long",
-  },
-  {
-    id: 8,
-    image:
-      "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
-    name: "Sơn Tung MTP",
-  },
-  {
-    id: 9,
-    image:
-      "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
-    name: "Jack",
-  },
 ];
 
 export const posts = [
   {
     id: 1,
+    avatar:
+      "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
     img: "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
     title:
       "Đi Giữa Trời Rực Rỡ TẬP 10: Chải cuối cùng cũng c:ứu được Pu, cả hai đưa ra quyết định lớn cho tương lai, CHẢI và bố đồng ý cho PU đi học Đại học 2 ĐIỀU KIỆN👇 Xem dưới bình luận👇",
@@ -218,13 +188,20 @@ export const posts = [
   },
   {
     id: 2,
-    img: "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
+    avatar:
+      "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
+    img: [
+      "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
+      "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
+    ],
     title:
       "Đi Giữa Trời Rực Rỡ TẬP 10: Chải cuối cùng cũng c:ứu được Pu, cả hai đưa ra quyết định lớn cho tương lai, CHẢI và bố đồng ý cho PU đi học Đại học 2 ĐIỀU KIỆN👇 Xem dưới bình luận👇",
     name: "nguyen phương",
   },
   {
     id: 3,
+    avatar:
+      "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
     img: "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
     title:
       "Đi Giữa Trời Rực Rỡ TẬP 10: Chải cuối cùng cũng c:ứu được Pu, cả hai đưa ra quyết định lớn cho tương lai, CHẢI và bố đồng ý cho PU đi học Đại học 2 ĐIỀU KIỆN👇 Xem dưới bình luận👇",
@@ -232,6 +209,8 @@ export const posts = [
   },
   {
     id: 4,
+    avatar:
+      "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
     img: "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
     title:
       "Đi Giữa Trời Rực Rỡ TẬP 10: Chải cuối cùng cũng c:ứu được Pu, cả hai đưa ra quyết định lớn cho tương lai, CHẢI và bố đồng ý cho PU đi học Đại học 2 ĐIỀU KIỆN👇 Xem dưới bình luận👇",
@@ -239,50 +218,78 @@ export const posts = [
   },
 ];
 
+const StyledIcon1 = styled(FaUserCircle)`
+  color: #1a80f4;
+`;
+const StyledIcon2 = styled(FaUserFriends)`
+  color: #1a80f4;
+`;
+const StyledIcon3 = styled(FaUserCircle)`
+  color: #238ee8;
+`;
+const StyledIcon4 = styled(FaUsers)`
+  color: #9f58ea;
+`;
+const StyledIcon5 = styled(CiShop)`
+  color: #1a80f4;
+`;
+const StyledIcon6 = styled(MdOutlineOndemandVideo)`
+  color: #1877f2;
+`;
+const StyledIcon7 = styled(GoClockFill)`
+  color: #228ee5;
+`;
+const StyledIcon8 = styled(MdSaveAlt)`
+  color: #5d98de;
+`;
+const StyledIcon9 = styled(FaRegArrowAltCircleDown)`
+  color: #050505;
+`;
+
 export const leftdata = [
   {
     id: 1,
-    icon: FaUserCircle,
-    name: " nguyễn long",
+    icon: StyledIcon1,
+    name: "nguyễn long",
   },
   {
     id: 2,
-    icon: FaUserFriends,
-    name: " Bạn bè",
+    icon: StyledIcon2,
+    name: "Bạn bè",
   },
   {
     id: 3,
-    icon: FaUserCircle,
-    name: " Bảng Feed",
+    icon: StyledIcon3,
+    name: "Bảng Feed",
   },
   {
     id: 4,
-    icon: FaUsers,
-    name: " Bảng Feed",
+    icon: StyledIcon4,
+    name: "Bảng Feed",
   },
   {
     id: 5,
-    icon: CiShop,
-    name: " Maketplace",
+    icon: StyledIcon5,
+    name: "Maketplace",
   },
   {
     id: 6,
-    icon: MdOutlineOndemandVideo,
-    name: " Video",
+    icon: StyledIcon6,
+    name: "Video",
   },
   {
     id: 7,
-    icon: GoClockFill,
-    name: " Kỷ niệm",
+    icon: StyledIcon7,
+    name: "Kỷ niệm",
   },
   {
     id: 8,
-    icon: MdSaveAlt,
-    name: " Đã lưu",
+    icon: StyledIcon8,
+    name: "Đã lưu",
   },
   {
     id: 9,
-    icon: FaRegArrowAltCircleDown,
+    icon: StyledIcon9,
     name: "Xem thêm",
   },
 ];

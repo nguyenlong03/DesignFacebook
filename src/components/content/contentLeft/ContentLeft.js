@@ -1,5 +1,11 @@
 import React from "react";
 import "../contentLeft/ContentLeft.scss";
+import { FaUserCircle } from "react-icons/fa";
+import styled from "styled-components";
+
+const StyledIcon = styled(FaUserCircle)`
+  color: red;
+`;
 function ContentLeft({ data }) {
   const Icon = data.icon;
   return (
