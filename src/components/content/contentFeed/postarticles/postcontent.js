@@ -46,8 +46,8 @@ function Postcontent({ post }) {
       <div className="post-title">
         <div className="post-title_icon1">
           <span className="like" style={{ fontSize: "18px", marginTop: "5px" }}>
-            <AiFillLike size="20px" color="#137AFF" />
-            <MdEmojiEmotions size="20px" color="#FDD870" />
+            <AiFillLike fontSize={"25px"} color="#137AFF" />
+            <MdEmojiEmotions fontSize={"25px"} color="#FDD870" />
             <span>{isLiked}</span>
           </span>
         </div>
@@ -61,20 +61,20 @@ function Postcontent({ post }) {
         </div>
       </div>
       <hr className="hr-icon" />
-      <div className="post-feeling">
-        <span className="feeling-icon">
+      <ul className="post-feeling">
+        <linearGradient className="feeling-icon">
           <AiOutlineLike size="25px" onClick={handled} /> Like
-        </span>
-        <span className="feeling-icon">
+        </linearGradient>
+        <li className="feeling-icon">
           <FiMessageCircle size="25px" /> Bình luận
-        </span>
-        <span className="feeling-icon">
+        </li>
+        <li className="feeling-icon">
           <SlLink size="25px" /> Sao chép
-        </span>
-        <span className="feeling-icon">
+        </li>
+        <li className="feeling-icon">
           <SlActionRedo size="25px" /> Chia sẻ
-        </span>
-      </div>
+        </li>
+      </ul>
     </>
   );
 }

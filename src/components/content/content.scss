@@ -1,6 +1,6 @@
 
 @font-face {
-  font-family: myfont;
+  font-family: 'myfont';
   src: url('../../font/OpenSans-VariableFont_wdth,wght.ttf');
 }
 
@@ -10,7 +10,7 @@
   
 
   .content-left {
-    font-family: myfont;
+    font-family: 'myfont';
     font-weight: 600;
     height: 100vh;
     overflow-y: hidden;
@@ -89,7 +89,7 @@
       color: black;
       width: 85%;
       margin-left: 42px;
-      height: 130px;
+      height: 170px;
       border-radius: 10px;
       background-color: rgb(255, 255, 255);
       box-shadow: 0px 2px 9px rgb(154, 151, 151);
@@ -98,8 +98,11 @@
     .name-story{
       display: flex;
       gap: 10px;
-      max-width: 100%;;
+      max-width: 100%;
       position: absolute;
+      font-family: "myfont";
+      font-weight: 400;
+      font-size: 14px;
      
     }
     
@@ -140,6 +143,8 @@
     margin-left: 60px;
     overflow-y: hidden;
     overflow-x: hidden;
+    font-family: 'myfont';
+    font-weight: 600;
     &:hover {
       overflow-y: scroll;
 

@@ -18,17 +18,16 @@
         display: flex;
         justify-content: center;
         align-items: center;
-       
-        &:hover{
-            border-bottom: 3px solid blue;
-            cursor: pointer;
-            background-color: rgb(245, 245, 244);
-        }
+        
+        
         .feed-icon{
             color: #67696D;
            
         }
     }
+}
+.active{
+    border-bottom: 3px solid blue;
 }
 
 

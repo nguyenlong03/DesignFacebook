@@ -6,7 +6,6 @@ import { MdOutlineOndemandVideo } from "react-icons/md";
 import { GoClockFill } from "react-icons/go";
 import { MdSaveAlt } from "react-icons/md";
 import { FaRegArrowAltCircleDown } from "react-icons/fa";
-import { BiColor } from "react-icons/bi";
 import styled from "styled-components";
 
 export const users = [
@@ -80,29 +79,29 @@ export const users = [
       "https://cdn.thoitiet247.edu.vn/wp-content/uploads/2024/04/anh-nu-de-thuong-1.jpg",
   },
   {
-    id: 10,
-    username: "lê đức phúc",
+    id: 11,
+    username: "Vũ Thị Kiêm Tuyến",
     email: "Nguyenlong@gmail.com",
     image:
       "https://cdn.thoitiet247.edu.vn/wp-content/uploads/2024/04/anh-nu-de-thuong-1.jpg",
   },
   {
-    id: 10,
-    username: "lê đức phúc",
+    id: 12,
+    username: "Nguyễn Thị Bình",
     email: "Nguyenlong@gmail.com",
     image:
       "https://cdn.thoitiet247.edu.vn/wp-content/uploads/2024/04/anh-nu-de-thuong-1.jpg",
   },
   {
-    id: 10,
-    username: "lê đức phúc",
+    id: 13,
+    username: "Lê Ngọc Nhân",
     email: "Nguyenlong@gmail.com",
     image:
       "https://cdn.thoitiet247.edu.vn/wp-content/uploads/2024/04/anh-nu-de-thuong-1.jpg",
   },
   {
-    id: 10,
-    username: "lê đức phúc",
+    id: 14,
+    username: "Nguyễn Thế Nghĩa",
     email: "Nguyenlong@gmail.com",
     image:
       "https://cdn.thoitiet247.edu.vn/wp-content/uploads/2024/04/anh-nu-de-thuong-1.jpg",

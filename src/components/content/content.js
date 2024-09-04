@@ -20,7 +20,9 @@ function Content(props) {
         <hr />
         <div className="title-Loitat">
           <span className="title-name">
-            <b>Lối tắt của bạn</b>
+            <p style={{ fontSize: "20px", color: "#65676B" }}>
+              Lối tắt của bạn
+            </p>
           </span>
           <button className="title-bnt">chỉnh sửa</button>
         </div>
