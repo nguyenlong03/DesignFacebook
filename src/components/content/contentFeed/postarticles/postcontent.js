@@ -10,6 +10,7 @@ import { SlLink } from "react-icons/sl";
 import { AiOutlineLike } from "react-icons/ai";
 import { FiMessageCircle } from "react-icons/fi";
 import logo from "../../../../acsset/image/user2.jpg";
+import { GiSelfLove } from "react-icons/gi";
 import { useState } from "react";
 
 function Postcontent({ post }) {
@@ -36,6 +37,7 @@ function Postcontent({ post }) {
            b1:data phải là 1 mảng chứa các ảnh
            b2: nếu img là 1 mảng thì lặp qua và render ra các ảnh (Array.isArray(post.img) )
          */}
+
       {Array.isArray(post.img) ? (
         post.img.map((image, index) => (
           <img key={index} src={image} alt="" className="post-images" />
@@ -48,6 +50,7 @@ function Postcontent({ post }) {
           <span className="like" style={{ fontSize: "18px", marginTop: "5px" }}>
             <AiFillLike fontSize={"25px"} color="#137AFF" />
             <MdEmojiEmotions fontSize={"25px"} color="#FDD870" />
+            <GiSelfLove fontSize={"25px"} color="#FB4E72" />
             <span>{isLiked}</span>
           </span>
         </div>

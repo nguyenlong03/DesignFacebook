@@ -84,7 +84,25 @@
     &::-webkit-scrollbar-track {
       background-color: #ffff;
     }
-
+    .bottom-content{
+      z-index: 10;
+      position: absolute;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      margin-top: 80px;
+          .btn{
+            width: 60px;
+            height: 60px;
+            background-color: #FFFFFF;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+          }
+      }
     .poter {
       color: black;
       width: 85%;

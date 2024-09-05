@@ -9,6 +9,8 @@ import BottomLeft from "./contentLeft/BottomLeft";
 import FeedBox1 from "./contentFeed/FeedBox1/FeedBox1";
 import Postter from "./contentFeed/postter/Postter";
 import Postcontent from "./contentFeed/postarticles/postcontent";
+import { AiOutlineLeft } from "react-icons/ai";
+import { AiOutlineRight } from "react-icons/ai";
 
 function Content(props) {
   return (
@@ -31,6 +33,14 @@ function Content(props) {
         ))}
       </div>
       <div className="content-feed">
+        <div className="bottom-content">
+          <button className="btn">
+            <AiOutlineLeft />
+          </button>
+          <button className="btn">
+            <AiOutlineRight />
+          </button>
+        </div>
         <div className="name-story">
           <FeedBox1 />
           {story.map((item) => (

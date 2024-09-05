@@ -1,33 +1,48 @@
-import React from "react";
+import React, { useState } from "react";
 import { PiVideoThin } from "react-icons/pi";
 import { HiOutlineUserGroup } from "react-icons/hi2";
 import "../NavbarFeed/NavbarFeed.scss";
 import { FaGamepad } from "react-icons/fa6";
 import { GoHomeFill } from "react-icons/go";
 import { CiShop } from "react-icons/ci";
-import { useState } from "react";
-function NavbarFeed(props) {
-  const [menu, setmenu] = useState(null);
+
+function NavbarFeed() {
+  const [menu, setmenu] = useState("GoHomeFill");
+
   return (
     <>
       <ul className="feed-container">
         <li
-          onClick={() => setmenu(GoHomeFill)}
-          className={`icon-feed ${menu === GoHomeFill ? "active" : ""}`}
+          onClick={() => setmenu("GoHomeFill")}
+          className={`icon-feed ${menu === "GoHomeFill" ? "active" : ""}`}
         >
-          <GoHomeFill color="#0866FF" className="feed-icon" />
+          <GoHomeFill />
         </li>
-        <li className="icon-feed">
-          <PiVideoThin className="feed-icon" />
+        <li
+          onClick={() => setmenu("PiVideoThin")}
+          className={`icon-feed ${menu === "PiVideoThin" ? "active" : ""}`}
+        >
+          <PiVideoThin />
         </li>
-        <li className="icon-feed">
-          <CiShop className="feed-icon" />
+        <li
+          onClick={() => setmenu("CiShop")}
+          className={`icon-feed ${menu === "CiShop" ? "active" : ""}`}
+        >
+          <CiShop />
         </li>
-        <li className="icon-feed">
-          <HiOutlineUserGroup className="feed-icon" />
+        <li
+          onClick={() => setmenu("HiOutlineUserGroup")}
+          className={`icon-feed ${
+            menu === "HiOutlineUserGroup" ? "active" : ""
+          }`}
+        >
+          <HiOutlineUserGroup />
         </li>
-        <li className="icon-feed">
-          <FaGamepad className="feed-icon" />
+        <li
+          onClick={() => setmenu("FaGamepad")}
+          className={`icon-feed ${menu === "FaGamepad" ? "active" : ""}`}
+        >
+          <FaGamepad />
         </li>
       </ul>
     </>

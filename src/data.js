@@ -5,13 +5,13 @@ import { CiShop } from "react-icons/ci";
 import { MdOutlineOndemandVideo } from "react-icons/md";
 import { GoClockFill } from "react-icons/go";
 import { MdSaveAlt } from "react-icons/md";
-import { FaRegArrowAltCircleDown } from "react-icons/fa";
+import { AiTwotoneDownCircle } from "react-icons/ai";
 import styled from "styled-components";
 
 export const users = [
   {
     id: 1,
-    username: "nguyễn hữu long",
+    username: "Nguyễn Hữu Long",
     email: "Nguyenlong@gmail.com",
     image:
       "https://hoanghamobile.com/tin-tuc/wp-content/uploads/2024/04/anh-con-gai-1-1.jpg",
@@ -19,13 +19,13 @@ export const users = [
   },
   {
     id: 2,
-    username: "nguyễn  hữu giang",
+    username: "Nguyễn Hữu Giang",
     email: "Nguyenlong@gmail.com",
     image: "https://live.staticflickr.com/65535/50057895057_d712b724e8_z.jpg",
   },
   {
     id: 3,
-    username: "nguyễn thị Phương",
+    username: "Nguyễn Thị Phương",
     email: "Nguyenlong@gmail.com",
     image:
       "https://i.pinimg.com/564x/e4/7d/3c/e47d3cc028272905c14993deef6b68bf.jpg",
@@ -39,41 +39,41 @@ export const users = [
   },
   {
     id: 5,
-    username: "nguyễn hoàng linh",
+    username: "Nguyễn Hoàng Linh",
     email: "Nguyenlong@gmail.com",
     image:
       "https://cdn.aicschool.edu.vn/wp-content/uploads/2024/05/anh-gai-dep-tu-nhien-1.jpg",
   },
   {
     id: 6,
-    username: "nguyễn thị hoa",
+    username: "Nguyễn Thị Hoa",
     email: "Nguyenlong@gmail.com",
     image:
       "https://www.vietnamfineart.com.vn/wp-content/uploads/2023/03/anh-gai-dep-de-thuong.jpg",
   },
   {
     id: 7,
-    username: "Đỗ thùy linh",
+    username: "Đỗ Thùy Linh",
     email: "Nguyenlong@gmail.com",
     image:
       "https://cdn.thoitiet247.edu.vn/wp-content/uploads/2024/04/anh-nu-de-thuong-1.jpg",
   },
   {
     id: 8,
-    username: "nguyễn quang dũng",
+    username: "Nguyễn Quang Dũng",
     email: "Nguyenlong@gmail.com",
     image: "https://live.staticflickr.com/65535/51988206348_e72992b30c_k.jpg",
   },
   {
     id: 9,
-    username: "nguyễn Trang nghĩa",
+    username: "Nguyễn Trang Nghĩa",
     email: "Nguyenlong@gmail.com",
     image:
       "https://top10tphcm.com/wp-content/uploads/2024/04/hinh-anh-gai-xinh-han-quoc-dep-nhat-01.jpg",
   },
   {
     id: 10,
-    username: "lê đức phúc",
+    username: "Lê Đức Phúc",
     email: "Nguyenlong@gmail.com",
     image:
       "https://cdn.thoitiet247.edu.vn/wp-content/uploads/2024/04/anh-nu-de-thuong-1.jpg",
@@ -131,7 +131,7 @@ export const Loitat = [
   },
   {
     id: 5,
-    ground: "đại học công nghiệp việt hung",
+    ground: "Đại học công nghiệp việt hung",
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV501m4voRtu6jLdaIJvIdaReo4o_SFOT-jA&s",
   },
 ];
@@ -141,37 +141,37 @@ export const story = [
     id: 1,
     image:
       "https://hoanghamobile.com/tin-tuc/wp-content/uploads/2024/04/anh-con-gai-1-1.jpg",
-    name: "nguyễn phương",
+    name: "Nguyễn Phương",
   },
   {
     id: 2,
     image:
       "https://cdn.thoitiet247.edu.vn/wp-content/uploads/2024/04/nhung-hinh-anh-girl-xinh-de-thuong.webp",
-    name: "Bảo thanh",
+    name: "Bảo Thanh",
   },
   {
     id: 3,
     image:
       "https://likevape.vn/wp-content/uploads/2023/08/21205817-hinh-anh-gai-xinh-11.jpg",
-    name: "nguyễn quang dũng",
+    name: "Nguyễn Quang Dũng",
   },
   {
     id: 4,
     image:
       "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
-    name: "nguyễn phương",
+    name: "Nguyễn Phương",
   },
   {
     id: 5,
     image:
       "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
-    name: "Đỗ thùy linh",
+    name: "Đỗ Thùy Linh",
   },
   {
     id: 6,
     image:
       "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
-    name: "nguyễn Trang nghĩa",
+    name: "Nguyễn Trang Nghĩa",
   },
 ];
 
@@ -182,29 +182,34 @@ export const posts = [
       "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
     img: "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
     title:
-      "Đi Giữa Trời Rực Rỡ TẬP 10: Chải cuối cùng cũng c:ứu được Pu, cả hai đưa ra quyết định lớn cho tương lai, CHẢI và bố đồng ý cho PU đi học Đại học 2 ĐIỀU KIỆN👇 Xem dưới bình luận👇",
-    name: "nguyen long",
+      "Có những ngày tháng sống bình lặng giữa cuộc đời, tình yêu không còn quan trọng nữa! Có ai đó quan tâm hay không quan trọng, bản thân vẫn tự có thể đối đãi tốt với chính mình!",
+    name: "Nguyen Long",
   },
   {
     id: 2,
     avatar:
       "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
     img: [
-      "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
-      "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
+      "https://photo.znews.vn/w660/Uploaded/mdf_eioxrd/2021_07_06/2.jpg",
+      "https://hoanghamobile.com/tin-tuc/wp-content/uploads/2024/04/anh-con-gai-1-1.jpg",
+      "https://vcdn1-dulich.vnecdn.net/2021/07/16/9-1626444968.jpg?w=460&h=0&q=100&dpr=2&fit=crop&s=cNm75vOPmq_zpO_7CibDUg",
+      "https://www.elle.vn/wp-content/uploads/2017/07/25/hinh-anh-dep-1.jpg",
     ],
     title:
-      "Đi Giữa Trời Rực Rỡ TẬP 10: Chải cuối cùng cũng c:ứu được Pu, cả hai đưa ra quyết định lớn cho tương lai, CHẢI và bố đồng ý cho PU đi học Đại học 2 ĐIỀU KIỆN👇 Xem dưới bình luận👇",
-    name: "nguyen phương",
+      "Đừng kì vọng vào người khác. Có lỡ kì vọng, hãy kì vọng vào chính mình.",
+    name: "Nguyen phương",
   },
   {
     id: 3,
     avatar:
       "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
-    img: "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
+    img: [
+      "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
+      "https://photo.znews.vn/w660/Uploaded/qhj_yvobvhfwbv/2018_07_18/Nguyen_Huy_Binh1.jpg",
+    ],
     title:
-      "Đi Giữa Trời Rực Rỡ TẬP 10: Chải cuối cùng cũng c:ứu được Pu, cả hai đưa ra quyết định lớn cho tương lai, CHẢI và bố đồng ý cho PU đi học Đại học 2 ĐIỀU KIỆN👇 Xem dưới bình luận👇",
-    name: "nguyen thị linh",
+      "Sau này mình già đi, trí nhớ chỉ vỏn vẹn vài khoảnh khắc, liệu chúng ta sẽ nhớ điều gì?",
+    name: "Nguyen thị linh",
   },
   {
     id: 4,
@@ -212,7 +217,7 @@ export const posts = [
       "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
     img: "https://i.pinimg.com/736x/d6/4f/57/d64f573f281b9f9e3eaa47742b386571.jpg",
     title:
-      "Đi Giữa Trời Rực Rỡ TẬP 10: Chải cuối cùng cũng c:ứu được Pu, cả hai đưa ra quyết định lớn cho tương lai, CHẢI và bố đồng ý cho PU đi học Đại học 2 ĐIỀU KIỆN👇 Xem dưới bình luận👇",
+      "Thử thách đối với người tiêu cực là áp lực, đối với người tích cực là động lực.",
     name: "Lê thị trang",
   },
 ];
@@ -241,7 +246,7 @@ const StyledIcon7 = styled(GoClockFill)`
 const StyledIcon8 = styled(MdSaveAlt)`
   color: #5d98de;
 `;
-const StyledIcon9 = styled(FaRegArrowAltCircleDown)`
+const StyledIcon9 = styled(AiTwotoneDownCircle)`
   color: #050505;
 `;
 
@@ -249,7 +254,7 @@ export const leftdata = [
   {
     id: 1,
     icon: StyledIcon1,
-    name: "nguyễn long",
+    name: "Nguyễn long",
   },
   {
     id: 2,
