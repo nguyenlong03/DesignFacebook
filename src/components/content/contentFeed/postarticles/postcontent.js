@@ -9,7 +9,6 @@ import { SlActionRedo } from "react-icons/sl";
 import { SlLink } from "react-icons/sl";
 import { AiOutlineLike } from "react-icons/ai";
 import { FiMessageCircle } from "react-icons/fi";
-import logo from "../../../../acsset/image/user2.jpg";
 import { GiSelfLove } from "react-icons/gi";
 import { useState } from "react";
 
@@ -45,6 +44,7 @@ function Postcontent({ post }) {
       ) : (
         <img src={post.img} alt="post-image" className="post-image" />
       )}
+
       <div className="post-title">
         <div className="post-title_icon1">
           <span className="like" style={{ fontSize: "18px", marginTop: "5px" }}>
